@@ -1,0 +1,84 @@
+:root{
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --Dark-gray: hsl(0, 0%, 59%);
+}
+
+
+body{
+    background-color: var(--Dark-cyan);
+    background-image:
+     url(/assets/image/bg-pattern-bottom.svg),
+     url(/assets/image/bg-pattern-top.svg);    
+    background-repeat: no-repeat;
+    background-position: 
+    left 50vw top 50vh,
+    right 50vw bottom 50vh;   
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    margin: 0;    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.card{
+    width: 330px;
+    height: 370px;    
+    border-radius: 15px;
+    background-image: url(/assets/image/bg-pattern-card.svg);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.315);
+}
+
+.card__body{
+    height: 200px;    
+    text-align: center;      
+}
+
+.card__img{
+    display: block;
+    margin: 85px auto 0;    
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card__gray--color{
+    font-weight: normal;
+    color: var(--Dark-gray);
+}
+
+.card__name,
+.card__footer-num{
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 26px 0 0;    
+}
+
+.card__city{
+    font-size: 14px; 
+    margin: 10px 0 26px; 
+}
+
+.card__footer{  
+    height: 84px;  
+    display: flex;
+    justify-content: space-evenly;   
+    align-items: flex-start;
+    border-top: 1px solid hsla(0, 0%, 59%, .3);
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 0;    
+}
+
+.card__footer-text{
+    margin: 5px;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
