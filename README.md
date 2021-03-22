@@ -1,4 +1,5 @@
-# Newbie01FrontrndMentor-card
+# Newbie01_profile-card
+Frontend-mentor_challenge
 
 viewport 375 x 667
 
